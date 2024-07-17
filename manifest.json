@@ -3,7 +3,7 @@
     "name": "Zenfocus",
     "version": "1.0",
   
-    "description": "A extension that lets you block websites to help keep you focusing on your work.",
+    "description": "Zenfocus is a browser extension that lets you block websites to help keep you focused.",
 
     "icons": {
       "512": "icons/512x512.png",
