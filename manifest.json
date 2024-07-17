@@ -1,0 +1,51 @@
+{
+    "manifest_version": 2,
+    "name": "Zenfocus",
+    "version": "1.0",
+  
+    "description": "A extension that lets you block websites to help keep you focusing on your work.",
+
+    "icons": {
+      "512": "icons/512x512.png",
+      "384": "icons/384x384.png",
+      "192": "icons/192x192.png",
+      "180": "icons/180x180.png",
+      "152": "icons/152x152.png",
+      "144": "icons/144x144.png",
+      "128": "icons/128x128.png",
+      "120": "icons/120x120.png",
+      "114": "icons/114x114.png",
+      "96": "icons/96x96.png",
+      "76": "icons/76x76.png",
+      "72": "icons/72x72.png",
+      "64": "icons/64x64.png",
+      "60": "icons/60x60.png",
+      "57": "icons/57x57.png",
+      "48": "icons/48x48.png",
+      "32": "icons/32x32.png",
+      "16": "icons/16x16.png"
+    },
+
+    "browser_action": {
+    "default_icon": "icons/128x128.png",
+    "default_title": "Zenfocus",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ],
+
+  "web_accessible_resources": [
+    "block.html"
+    ],
+  
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["zenfocus.js"]
+      }
+    ]
+  }
+  

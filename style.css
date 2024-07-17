@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Inter;
+    src: url('../Inter.ttf');
+}
+
+:root {
+    --width: 300px;
+    --height: 500px;
+    --font: 'Inter';
+    --bg: #ECEFF4;
+    --text: #000000;
+    --purple: #7000FF;
+    --white-text: #ffffff;
+    --white: #ffffff;
+
+    --top-bar-height: 40px;
+    --margin: 0px;
+    --padding: 0px;
+}
+
+.drop-shadow {
+    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.1));
+}
+
+body {
+    font-family: var(--font);
+
+    background-color: var(--bg);
+    color: var(--text);
+
+    width: var(--width);
+    height: var(--height);
+    
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+nav {
+    background-color: var(--purple);
+
+    height: var(--top-bar-height);
+    width: 100%;
+
+    margin: var(--margin);
+    padding: var(--padding);
+
+    color: var(--white-text);
+
+    text-align: center;
+
+    display: flex;
+}
+
+nav h2 {
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10px;
+}
+
+nav img {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+
+    margin: 2.5px;
+}
+
+.logo-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-section {
+    margin-top: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+button {
+    margin: 0px;
+    border: 0px solid red;
+    width: 80px;
+    height: 40px;
+    font-size: 24px;
+
+    background-color: var(--white);
+}
+
+.on {
+    background-color: var(--purple);
+    color: var(--white-text);
+}
+
+.off {
+    background-color: var(--white);
+    border: 2pt solid var(--purple);
+}
