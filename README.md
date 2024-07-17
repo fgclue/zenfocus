@@ -1,4 +1,5 @@
 ![Badge Frequency]
+![Badge License]
 
 ***
 
@@ -14,6 +15,17 @@ Insert addon badges here.
 ***
 Zenfocus is a browser extension that lets you block websites to help keep you focused.
 
+# Installation
+## Chrome/Chromium/Edge
+
+## Firefox
+
+
+© biitle.nl 2024
+
+Licensed under MIT
+
 <!----------------[ Badges ]---------------->
 
 [Badge Frequency]: https://img.shields.io/github/commit-activity/m/fgclue/zenfocus
+[Badge License]: https://img.shields.io/github/license/fgclue/zenfocus
