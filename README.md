@@ -11,9 +11,9 @@ Zenfocus
 </h1>
 
 <p align="center">
-    <a href=""><img src="./firefox-addon.png" height="50em" width="auto"></a>
-    <a href=""><img src="./chrome-addon.png" height="50em" width="auto"></a>
-    <a href=""><img src="./microsoft-addon.png" height="50em" width="auto"></a>
+    <a href=""><img src="./firefox-addon.png" height="60em" width="auto"></a>
+    <a href=""><img src="./chrome-addon.png" height="60em" width="auto"></a>
+    <a href=""><img src="./microsoft-addon.png" height="60em" width="auto"></a>
 </p>
 
 ***
