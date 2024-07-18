@@ -10,7 +10,11 @@
 Zenfocus
 </h1>
 
-Insert addon badges here.
+<p align="center">
+    <a href=""><img src="./firefox-addon.png" height="50em" width="auto"></a>
+    <a href=""><img src="./chrome-addon.png" height="50em" width="auto"></a>
+    <a href=""><img src="./microsoft-addon.png" height="50em" width="auto"></a>
+</p>
 
 ***
 Zenfocus is a browser extension that lets you block websites to help keep you focused.
